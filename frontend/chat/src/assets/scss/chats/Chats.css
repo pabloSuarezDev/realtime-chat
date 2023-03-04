@@ -1,0 +1,46 @@
+.conversaciones {
+  overflow-y: auto;
+  max-height: 100vh;
+}
+.conversaciones div.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0;
+  padding: 1rem;
+  background-color: rgb(31, 28, 28);
+}
+.conversaciones div.header div h3 {
+  margin: 0;
+}
+.conversaciones div.header .logout {
+  font-size: 1.5rem;
+}
+.conversaciones .chat {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border-bottom: 1px solid white;
+}
+.conversaciones .chat .left {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.conversaciones .chat .left .profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 2rem;
+}
+.conversaciones .chat .right span {
+  padding: 0 0.25rem;
+  background-color: rgb(75, 188, 75);
+  border-radius: 2rem;
+}
+.conversaciones .add__btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 1rem;
+}/*# sourceMappingURL=Chats.css.map */

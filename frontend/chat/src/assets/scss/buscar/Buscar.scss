@@ -1,0 +1,34 @@
+.buscar {
+  overflow-y: auto;
+  max-height: 100vh;
+
+  div.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 1rem;
+    background-color: rgb(31, 28, 28);
+
+    div h3 { 
+      margin: 0;
+      color: white !important;
+    }
+
+    .logout { font-size: 1.5rem; }
+  }
+
+  .user {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border-bottom: 1px solid white;
+
+    .profile-pic {
+      width: 40px;
+      height: 40px;
+      border-radius: 2rem;
+    }
+  }
+}

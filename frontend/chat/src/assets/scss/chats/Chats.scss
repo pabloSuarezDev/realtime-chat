@@ -1,0 +1,50 @@
+.conversaciones {
+  overflow-y: auto;
+  max-height: 100vh;
+
+  div.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    padding: 1rem;
+    background-color: rgb(31, 28, 28);
+
+    div h3 { margin: 0; }
+
+    .logout { font-size: 1.5rem; }
+  }
+
+  .chat {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid white;
+
+    .left {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    
+      .profile-pic {
+        width: 40px;
+        height: 40px;
+        border-radius: 2rem;
+      }
+    }
+
+    .right span {
+      padding: 0 .25rem;
+      background-color: rgb(75, 188, 75);
+      border-radius: 2rem;
+    }
+  }
+
+  .add__btn {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 1rem;
+  }
+}
